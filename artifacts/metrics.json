@@ -1,0 +1,98 @@
+{
+ "horizon_days": 1.0,
+ "majority_baseline_accuracy": 0.9901223963925274,
+ "threshold": 0.9,
+ "persist": 12,
+ "models": {
+  "logreg": {
+   "accuracy": 0.9752254670388663,
+   "balanced_accuracy": 0.8422139166265924,
+   "precision": 0.24186046511627907,
+   "recall": 0.7065217391304348,
+   "f1": 0.36036036036036034,
+   "pr_auc": 0.52239751416473,
+   "confusion": {
+    "tn": 36073,
+    "fp": 815,
+    "fn": 108,
+    "tp": 260
+   },
+   "lead_time_days": {
+    "set1_bearing3": 0.52,
+    "set1_bearing4": 4.75,
+    "set2_bearing1": 0.29,
+    "set3_bearing3": 1.11
+   },
+   "false_alarm_on_healthy_bearings": {
+    "set1_bearing1": false,
+    "set1_bearing2": false,
+    "set2_bearing2": false,
+    "set2_bearing3": true,
+    "set2_bearing4": true,
+    "set3_bearing1": true,
+    "set3_bearing2": false,
+    "set3_bearing4": true
+   }
+  },
+  "random_forest": {
+   "accuracy": 0.9845930856774747,
+   "balanced_accuracy": 0.7595102802372399,
+   "precision": 0.3271812080536913,
+   "recall": 0.529891304347826,
+   "f1": 0.4045643153526971,
+   "pr_auc": 0.3403515198337256,
+   "confusion": {
+    "tn": 36487,
+    "fp": 401,
+    "fn": 173,
+    "tp": 195
+   },
+   "lead_time_days": {
+    "set1_bearing3": 0.52,
+    "set1_bearing4": 4.02,
+    "set2_bearing1": 0.17,
+    "set3_bearing3": 0.62
+   },
+   "false_alarm_on_healthy_bearings": {
+    "set1_bearing1": false,
+    "set1_bearing2": false,
+    "set2_bearing2": false,
+    "set2_bearing3": false,
+    "set2_bearing4": false,
+    "set3_bearing1": false,
+    "set3_bearing2": false,
+    "set3_bearing4": false
+   }
+  },
+  "hist_gb": {
+   "accuracy": 0.9825531458020185,
+   "balanced_accuracy": 0.8674365647364997,
+   "precision": 0.33093525179856115,
+   "recall": 0.75,
+   "f1": 0.45923460898502494,
+   "pr_auc": 0.31274635508044313,
+   "confusion": {
+    "tn": 36330,
+    "fp": 558,
+    "fn": 92,
+    "tp": 276
+   },
+   "lead_time_days": {
+    "set1_bearing3": 1.88,
+    "set1_bearing4": 4.02,
+    "set2_bearing1": 0.7,
+    "set3_bearing3": 1.08
+   },
+   "false_alarm_on_healthy_bearings": {
+    "set1_bearing1": false,
+    "set1_bearing2": false,
+    "set2_bearing2": false,
+    "set2_bearing3": false,
+    "set2_bearing4": false,
+    "set3_bearing1": false,
+    "set3_bearing2": false,
+    "set3_bearing4": false
+   }
+  }
+ }
+}
